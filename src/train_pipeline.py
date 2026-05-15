@@ -86,7 +86,7 @@ def run_pipeline() -> dict:
         fitted[name] = pipeline
         path = MODELS_DIR / f"{name}.joblib"
         joblib.dump(pipeline, path)
-        logger.info("  ✓ %s trained in %.1fs → saved to %s", name, elapsed, path)
+        logger.info("  [OK] %s trained in %.1fs | saved to %s", name, elapsed, path)
 
     # ── Step 4: Evaluate ─────────────────────────────────────────────────────
     logger.info("Step 4/5: Evaluating all models")

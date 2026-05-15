@@ -59,7 +59,7 @@ def get_models() -> dict:
             max_depth=4,
             random_state=RANDOM_STATE,
             eval_metric='logloss',  # suppresses warning; logloss = cross-entropy
-            use_label_encoder=False,
+            
             n_jobs=-1
         ),
     }

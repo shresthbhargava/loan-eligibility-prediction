@@ -221,7 +221,7 @@ def explain_single_applicant(pipeline, applicant_df: pd.DataFrame,
     color    = APPROVE_COLOR if decision == "APPROVED" else REJECT_COLOR
 
     # Compute SHAP values for this single applicant
-    shap_vals_single = explainer(X_proc, check_additivity=False)
+    shap_vals_single = explainer(X_proc)
 
     if hasattr(shap_vals_single, 'values'):
         vals = shap_vals_single.values
