@@ -82,7 +82,7 @@ async def lifespan(app: FastAPI):
         classifier   = MODEL.named_steps['classifier']
         X_proc       = preprocessor.transform(X_warm.head(50))
 
-        SHAP_EXPLAINER = shap.TreeExplainer(classifier, check_additivity=False)
+        SHAP_EXPLAINER = shap.TreeExplainer(classifier)
         # Dummy call to fully initialize internal structures
         _ = SHAP_EXPLAINER.shap_values(X_proc[:1])
 

@@ -27,3 +27,268 @@ LogisticRegression    0.6585     0.6937  0.9059  0.7857   0.7480
 2026-05-15 13:39:03 | INFO     | train_pipeline | Pipeline completed in 2.1s
 2026-05-15 13:39:03 | INFO     | train_pipeline | Final model saved: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
 2026-05-15 13:39:03 | INFO     | train_pipeline | =======================================================
+2026-05-15 13:58:23 | INFO     | api          | API starting — loading model...
+2026-05-15 13:58:24 | INFO     | api          | Model loaded successfully: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 13:58:24 | INFO     | api          | Decision threshold: 0.77
+2026-05-15 14:08:30 | INFO     | api          | API starting — loading model...
+2026-05-15 14:08:30 | INFO     | api          | Model loaded successfully: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 14:08:30 | INFO     | api          | Decision threshold: 0.77
+2026-05-15 14:09:07 | INFO     | api          | API shutting down
+2026-05-15 14:09:11 | INFO     | api          | API starting — loading model...
+2026-05-15 14:09:11 | INFO     | api          | Model loaded successfully: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 14:09:11 | INFO     | api          | Decision threshold: 0.77
+2026-05-15 14:09:42 | INFO     | api          | API shutting down
+2026-05-15 14:10:13 | INFO     | api          | API starting — loading model...
+2026-05-15 14:10:14 | INFO     | api          | Model loaded successfully: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 14:10:14 | INFO     | api          | Decision threshold: 0.77
+2026-05-15 14:11:15 | WARNING  | api          | SHAP computation failed: TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 14:11:15 | INFO     | api          | Prediction: Rejected | prob=0.361 | risk=High Risk | time=7469.8ms
+2026-05-15 14:11:17 | WARNING  | api          | SHAP computation failed: TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 14:11:17 | INFO     | api          | Prediction: Rejected | prob=0.767 | risk=Medium Risk | time=79.6ms
+2026-05-15 14:14:14 | INFO     | api          | API shutting down
+2026-05-15 14:27:59 | INFO     | api          | API starting — loading model...
+2026-05-15 14:27:59 | INFO     | api          | Model loaded successfully: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 14:27:59 | INFO     | api          | Decision threshold: 0.77
+2026-05-15 14:32:07 | INFO     | api          | API shutting down
+2026-05-15 14:32:23 | INFO     | api          | API starting — loading model...
+2026-05-15 14:32:23 | INFO     | api          | Model loaded successfully: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 14:32:23 | INFO     | api          | Decision threshold: 0.77
+2026-05-15 14:32:37 | INFO     | api          | API shutting down
+2026-05-15 14:33:19 | INFO     | api          | API starting — loading model...
+2026-05-15 14:33:19 | INFO     | api          | Model loaded successfully: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 14:33:19 | INFO     | api          | Decision threshold: 0.77
+2026-05-15 14:43:49 | INFO     | api          | Prediction: Rejected | prob=0.361 | risk=High Risk | time=1971.5ms
+2026-05-15 14:43:52 | INFO     | api          | Prediction: Rejected | prob=0.767 | risk=Medium Risk | time=89.0ms
+2026-05-15 16:15:04 | INFO     | api          | API shutting down
+2026-05-15 16:15:16 | INFO     | api          | API starting — loading model...
+2026-05-15 16:15:17 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:15:17 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:15:20 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:15:20 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:15:20 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:16:23 | INFO     | api          | API shutting down
+2026-05-15 16:16:28 | INFO     | api          | API starting — loading model...
+2026-05-15 16:16:29 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:16:29 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:16:31 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:16:31 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:16:31 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:21:09 | INFO     | api          | API starting — loading model...
+2026-05-15 16:21:09 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:21:09 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:21:11 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:21:11 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:21:11 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:35:52 | INFO     | api          | API shutting down
+2026-05-15 16:35:57 | INFO     | api          | API starting — loading model...
+2026-05-15 16:35:57 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:35:57 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:35:59 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:35:59 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:35:59 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:36:19 | INFO     | api          | API shutting down
+2026-05-15 16:36:27 | INFO     | api          | API starting — loading model...
+2026-05-15 16:36:28 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:36:28 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:36:32 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:36:32 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:36:32 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:38:02 | WARNING  | api          | SHAP computation failed: TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:38:02 | INFO     | api          | Prediction: Approved | prob=0.781 | risk=Medium Risk | time=277.5ms
+2026-05-15 16:42:30 | INFO     | api          | API shutting down
+2026-05-15 16:42:35 | INFO     | api          | API starting — loading model...
+2026-05-15 16:42:35 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:42:35 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:42:37 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:42:37 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:42:37 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:43:24 | WARNING  | api          | SHAP computation failed: TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:43:24 | INFO     | api          | Prediction: Rejected | prob=0.727 | risk=Medium Risk | time=299.3ms
+2026-05-15 16:44:10 | INFO     | api          | API shutting down
+2026-05-15 16:44:34 | INFO     | api          | API starting — loading model...
+2026-05-15 16:44:34 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:44:34 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:44:36 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:44:36 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:44:36 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:45:23 | WARNING  | api          | SHAP computation failed: TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:45:23 | INFO     | api          | Prediction: Rejected | prob=0.727 | risk=Medium Risk | time=268.9ms
+2026-05-15 16:53:16 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:53:16 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:54:40 | INFO     | api          | API shutting down
+2026-05-15 16:54:44 | INFO     | api          | API starting — loading model...
+2026-05-15 16:54:44 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:54:44 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:54:46 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:54:46 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:54:46 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:54:50 | INFO     | api          | API shutting down
+2026-05-15 16:55:39 | INFO     | api          | API starting — loading model...
+2026-05-15 16:55:39 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:55:39 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:55:41 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:55:41 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:55:41 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:56:01 | WARNING  | api          | SHAP computation failed: TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+Traceback (most recent call last):
+  File "C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\api\main.py", line 299, in get_shap_contributions
+    shap.TreeExplainer(classifier, check_additivity=False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:56:01 | INFO     | api          | Prediction: Rejected | prob=0.765 | risk=Medium Risk | time=93.3ms
+2026-05-15 16:57:32 | INFO     | api          | API shutting down
+2026-05-15 16:57:38 | INFO     | api          | API starting — loading model...
+2026-05-15 16:57:38 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:57:38 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:57:41 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:57:41 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:57:41 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:58:19 | INFO     | api          | API shutting down
+2026-05-15 16:58:26 | INFO     | api          | API starting — loading model...
+2026-05-15 16:58:26 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:58:26 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:58:30 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:58:30 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:58:30 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:58:44 | INFO     | api          | API shutting down
+2026-05-15 16:59:15 | INFO     | api          | API starting — loading model...
+2026-05-15 16:59:15 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 16:59:15 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 16:59:16 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 16:59:16 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 16:59:17 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 16:59:54 | INFO     | api          | Feature names extracted: 21
+2026-05-15 16:59:54 | INFO     | api          | X_proc shape: (1, 21)
+2026-05-15 16:59:54 | INFO     | api          | shap_values type: ndarray
+2026-05-15 16:59:54 | INFO     | api          | shap_values shape: (1, 21, 2)
+2026-05-15 16:59:54 | INFO     | api          | vals extracted: shape=(21,), sample=[-0.00880289 -0.01755341  0.00756906]
+2026-05-15 16:59:54 | INFO     | api          | Contributions built: 21 non-zero of 21 total
+2026-05-15 16:59:54 | INFO     | api          | Top factor: Credit_History = 0.0729
+2026-05-15 16:59:54 | INFO     | api          | Prediction: Rejected | prob=0.727 | risk=Medium Risk | time=161.9ms
+2026-05-15 17:00:22 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:00:22 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:03:15 | INFO     | api          | API shutting down
+2026-05-15 17:03:20 | INFO     | api          | API starting — loading model...
+2026-05-15 17:03:20 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:03:20 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:03:22 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:03:22 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:03:22 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:03:24 | INFO     | api          | API shutting down
+2026-05-15 17:03:47 | INFO     | api          | API starting — loading model...
+2026-05-15 17:03:48 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:03:48 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:03:50 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:03:50 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:03:50 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:04:19 | INFO     | api          | Prediction: Approved | prob=0.781 | risk=Medium Risk | time=81.7ms
+2026-05-15 17:05:43 | INFO     | api          | Prediction: Rejected | prob=0.759 | risk=Medium Risk | time=163.4ms
+2026-05-15 17:06:15 | INFO     | api          | Prediction: Rejected | prob=0.581 | risk=High Risk | time=211.5ms
+2026-05-15 17:06:39 | INFO     | api          | Prediction: Rejected | prob=0.559 | risk=High Risk | time=153.1ms
+2026-05-15 17:09:43 | INFO     | api          | Prediction: Approved | prob=0.825 | risk=Medium Risk | time=185.8ms
+2026-05-15 17:15:58 | INFO     | api          | API shutting down
+2026-05-15 17:16:03 | INFO     | api          | API starting — loading model...
+2026-05-15 17:16:03 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:16:03 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:16:06 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:16:06 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:16:06 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:17:07 | INFO     | api          | API shutting down
+2026-05-15 17:17:11 | INFO     | api          | API starting — loading model...
+2026-05-15 17:17:11 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:17:11 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:17:12 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:17:12 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:17:12 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:17:27 | INFO     | api          | API shutting down
+2026-05-15 17:17:31 | INFO     | api          | API starting — loading model...
+2026-05-15 17:17:31 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:17:31 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:17:32 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:17:32 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:17:32 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:20:56 | INFO     | api          | API shutting down
+2026-05-15 17:21:00 | INFO     | api          | API starting — loading model...
+2026-05-15 17:21:00 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:21:00 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:21:02 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:21:02 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:21:02 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:21:10 | INFO     | api          | API shutting down
+2026-05-15 17:21:14 | INFO     | api          | API starting — loading model...
+2026-05-15 17:21:14 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:21:14 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:21:18 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:21:18 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:21:18 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:25:02 | INFO     | api          | API shutting down
+2026-05-15 17:25:37 | INFO     | api          | API starting — loading model...
+2026-05-15 17:25:37 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:25:37 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:25:39 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:25:39 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:25:39 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:26:13 | INFO     | api          | API shutting down
+2026-05-15 17:26:18 | INFO     | api          | API starting — loading model...
+2026-05-15 17:26:18 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:26:18 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:26:19 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:26:19 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:26:20 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:26:27 | INFO     | api          | API shutting down
+2026-05-15 17:26:31 | INFO     | api          | API starting — loading model...
+2026-05-15 17:26:32 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:26:32 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:26:33 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:26:33 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:26:33 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:26:41 | INFO     | api          | API shutting down
+2026-05-15 17:26:45 | INFO     | api          | API starting — loading model...
+2026-05-15 17:26:45 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:26:45 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:26:47 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:26:47 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:26:47 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:26:54 | INFO     | api          | API shutting down
+2026-05-15 17:26:58 | INFO     | api          | API starting — loading model...
+2026-05-15 17:26:58 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:26:58 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:27:00 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:27:00 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:27:00 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:27:03 | INFO     | api          | API shutting down
+2026-05-15 17:27:22 | INFO     | api          | API starting — loading model...
+2026-05-15 17:27:22 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 17:27:22 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 17:27:25 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 17:27:25 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 17:27:25 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 17:27:38 | WARNING  | api          | OOD input detected: ApplicantIncome (90000.0) exceeds training maximum (81000). Prediction may be unreliable.
+2026-05-15 17:27:38 | WARNING  | api          | OOD input detected: CoapplicantIncome (40000.0) is above 99th percentile of training data. Use with caution.
+2026-05-15 17:27:38 | INFO     | api          | Prediction: Rejected | prob=0.559 | risk=High Risk | time=83.0ms
+2026-05-15 17:28:22 | INFO     | api          | Prediction: Approved | prob=0.821 | risk=Medium Risk | time=103.3ms
+2026-05-15 21:52:57 | INFO     | api          | API starting — loading model...
+2026-05-15 21:52:58 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 21:52:58 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 21:53:05 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 21:53:05 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 21:53:05 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 21:58:20 | INFO     | api          | API starting — loading model...
+2026-05-15 21:58:20 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 21:58:20 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 21:58:22 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 21:58:22 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 21:58:22 | WARNING  | api          | SHAP warmup failed (non-critical): TreeExplainer.__init__() got an unexpected keyword argument 'check_additivity'
+2026-05-15 22:04:57 | INFO     | api          | API shutting down
+2026-05-15 22:04:57 | INFO     | api          | API shutting down
+2026-05-15 22:05:01 | INFO     | api          | API starting — loading model...
+2026-05-15 22:05:01 | INFO     | api          | API starting — loading model...
+2026-05-15 22:05:01 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 22:05:01 | INFO     | api          | Warming up SHAP explainer...
+\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 22:05:01 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 22:05:02 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 22:05:02 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 22:05:02 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 22:05:02 | INFO     | api          | SHAP explainer warmed up. All requests will be fast.
+2026-05-15 22:05:02 | INFO     | api          | SHAP explainer warmed up. All requests will be fast.
