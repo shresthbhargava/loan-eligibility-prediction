@@ -1,0 +1,29 @@
+2026-05-15 13:39:01 | INFO     | train_pipeline | =======================================================
+2026-05-15 13:39:01 | INFO     | train_pipeline | Loan Eligibility — Training Pipeline Started
+2026-05-15 13:39:01 | INFO     | train_pipeline | =======================================================
+2026-05-15 13:39:01 | INFO     | train_pipeline | Step 1/5: Loading and cleaning data
+2026-05-15 13:39:01 | INFO     | train_pipeline |   Loaded 614 rows, 13 columns
+2026-05-15 13:39:01 | INFO     | train_pipeline |   After engineering: 23 columns
+2026-05-15 13:39:01 | INFO     | train_pipeline | Step 2/5: Creating train/validation split
+2026-05-15 13:39:01 | INFO     | train_pipeline |   Train: 491 samples | Val: 123 samples
+2026-05-15 13:39:01 | INFO     | train_pipeline |   Approval rate — train: 68.6% | val: 69.1%
+2026-05-15 13:39:01 | INFO     | train_pipeline | Step 3/5: Training all models
+2026-05-15 13:39:01 | INFO     | train_pipeline |   Training LogisticRegression ...
+2026-05-15 13:39:01 | INFO     | train_pipeline |   Training DecisionTree ...
+2026-05-15 13:39:02 | INFO     | train_pipeline |   Training RandomForest ...
+2026-05-15 13:39:02 | INFO     | train_pipeline |   Training GradientBoosting ...
+2026-05-15 13:39:02 | INFO     | train_pipeline |   Training XGBoost ...
+2026-05-15 13:39:03 | INFO     | train_pipeline | Step 4/5: Evaluating all models
+2026-05-15 13:39:03 | INFO     | train_pipeline | 
+                    accuracy  precision  recall      f1  roc_auc
+model                                                           
+RandomForest          0.8374     0.8736  0.8941  0.8837   0.8548
+XGBoost               0.8130     0.8523  0.8824  0.8671   0.8421
+DecisionTree          0.8618     0.8778  0.9294  0.9029   0.8303
+GradientBoosting      0.8211     0.8539  0.8941  0.8736   0.7926
+LogisticRegression    0.6585     0.6937  0.9059  0.7857   0.7480
+2026-05-15 13:39:03 | INFO     | train_pipeline |   Best model: RandomForest (AUC 0.8548)
+2026-05-15 13:39:03 | INFO     | train_pipeline | Step 5/5: Saving final model
+2026-05-15 13:39:03 | INFO     | train_pipeline | Pipeline completed in 2.1s
+2026-05-15 13:39:03 | INFO     | train_pipeline | Final model saved: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 13:39:03 | INFO     | train_pipeline | =======================================================

@@ -1,0 +1,32 @@
+# Data — never commit raw data to git
+data/raw/
+data/processed/
+
+# Models — large binary files belong in model registry, not git
+models/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
