@@ -1,0 +1,15 @@
+# render.yaml
+# Render reads this file to configure your deployment automatically.
+# Commit this to your repo — Render detects it on push.
+
+services:
+  - type: web
+    name: loan-eligibility-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    healthCheckPath: /health
+    
