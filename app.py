@@ -18,6 +18,7 @@ import plotly.express as px
 import pandas as pd
 import time
 
+
 # ── Page config — must be first Streamlit call ────────────────────────────────
 st.set_page_config(
     page_title = "Loan Eligibility Predictor",
@@ -31,7 +32,7 @@ st.set_page_config(
 
 API_URL = os.getenv(
     "API_URL",
-    "https://loan-eligibility-api.onrender.com"  # ← your Render URL
+    "https://loan-eligibility-prediction-4nh7.onrender.com"  # ← your Render URL
 )
 THRESHOLD = 0.77
 

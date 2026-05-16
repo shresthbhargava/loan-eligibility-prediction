@@ -292,3 +292,30 @@ TypeError: TreeExplainer.__init__() got an unexpected keyword argument 'check_ad
 2026-05-15 22:05:02 | INFO     | data_loader  | Loaded test data: (367, 12)
 2026-05-15 22:05:02 | INFO     | api          | SHAP explainer warmed up. All requests will be fast.
 2026-05-15 22:05:02 | INFO     | api          | SHAP explainer warmed up. All requests will be fast.
+2026-05-15 22:18:51 | INFO     | api          | API shutting down
+2026-05-15 22:18:54 | INFO     | api          | API starting — loading model...
+2026-05-15 22:18:54 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 22:18:54 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 22:18:57 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 22:18:57 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 22:18:57 | INFO     | api          | SHAP explainer warmed up. All requests will be fast.
+2026-05-15 22:44:18 | INFO     | api          | API shutting down
+2026-05-15 22:44:21 | INFO     | api          | API starting — loading model...
+2026-05-15 22:44:22 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 22:44:22 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 22:44:25 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 22:44:25 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 22:44:25 | INFO     | api          | SHAP explainer warmed up. All requests will be fast.
+2026-05-15 22:55:08 | INFO     | api          | API shutting down
+2026-05-15 22:55:12 | INFO     | api          | API starting — loading model...
+2026-05-15 22:55:12 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-15 22:55:12 | INFO     | api          | Warming up SHAP explainer...
+2026-05-15 22:55:16 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-15 22:55:16 | INFO     | data_loader  | Loaded test data: (367, 12)
+2026-05-15 22:55:16 | INFO     | api          | SHAP explainer warmed up. All requests will be fast.
+2026-05-16 07:23:45 | INFO     | api          | API shutting down
+2026-05-16 07:23:51 | INFO     | api          | API starting — loading model...
+2026-05-16 07:23:51 | INFO     | api          | Model loaded: C:\Users\Shresth\OneDrive\Desktop\loan-eligibility-predictor\models\final_model.joblib
+2026-05-16 07:23:51 | INFO     | api          | Warming up SHAP explainer...
+2026-05-16 07:23:54 | INFO     | data_loader  | Loaded training data: (614, 13)
+2026-05-16 07:23:54 | INFO     | data_loader  | Loaded test data: (367, 12)
