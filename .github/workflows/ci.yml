@@ -1,0 +1,80 @@
+# .github/workflows/ci.yml
+name: CI Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install fastapi uvicorn pydantic pandas numpy \
+                      scikit-learn xgboost shap==0.46.0 \
+                      joblib requests pytest httpx
+
+      - name: Run pipeline smoke test
+        run: |
+          python -c "
+          import sys
+          sys.path.insert(0, 'src')
+          from config import TARGET, NUMERICAL_FEATURES
+          from preprocessor import build_preprocessor
+          pre = build_preprocessor()
+          print('Config OK:', TARGET)
+          print('Preprocessor OK:', type(pre).__name__)
+          "
+
+      - name: Check model file exists
+        run: |
+          python -c "
+          from pathlib import Path
+          assert Path('models/final_model.joblib').exists(), \
+              'Model file missing — run train_pipeline.py first'
+          print('Model file present')
+          "
+
+      - name: Test API health endpoint
+        run: |
+          python -c "
+          import sys, subprocess, time, requests
+          sys.path.insert(0, 'src')
+          proc = subprocess.Popen([
+              'uvicorn', 'api.main:app',
+              '--host', '0.0.0.0', '--port', '8001'
+          ])
+          time.sleep(8)
+          try:
+              r = requests.get('http://localhost:8001/health', timeout=10)
+              assert r.status_code == 200
+              assert r.json()['model_loaded'] == True
+              print('Health check passed:', r.json())
+          finally:
+              proc.terminate()
+          "
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check for syntax errors
+        run: |
+          pip install pyflakes
+          python -m pyflakes src/ api/ || true
